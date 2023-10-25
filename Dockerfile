@@ -1,4 +1,4 @@
 FROM openjdk:8
 EXPOSE 8080
-ADD target/demo.war demo.war
+ADD target/demo-0.0.1-SNAPSHOT.war demo-0.0.1-SNAPSHOT.war
 ENTRYPOINT [“java”, “-war”, “/demo.war”]
